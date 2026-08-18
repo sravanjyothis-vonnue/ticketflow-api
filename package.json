@@ -6,7 +6,6 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "prepare": "husky install",
   "lint-staged": {
     "*.{js,ts}": [
       "prettier --check",
